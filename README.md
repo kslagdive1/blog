@@ -1,0 +1,4 @@
+blog
+====
+
+Rails blog
