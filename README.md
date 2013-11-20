@@ -1,4 +1,4 @@
-blog
+ksl-blog.heroku.com
 
 Rails blog new
 
