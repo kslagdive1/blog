@@ -43,3 +43,6 @@ gem 'jquery-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', platforms: :ruby
+
+# For audit logs
+  gem 'paper_trail', :git => 'https://github.com/airblade/paper_trail.git', :branch => 'rails4'
