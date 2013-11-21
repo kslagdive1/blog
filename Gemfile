@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.0.0"
 
 gem 'rails', '3.2.13'
 
@@ -45,4 +46,7 @@ gem 'jquery-rails'
   gem 'therubyracer', platforms: :ruby
 
 # For audit logs
-  gem 'paper_trail', :git => 'https://github.com/airblade/paper_trail.git', :branch => 'rails4'
+# gem 'paper_trail', :git => 'https://github.com/airblade/paper_trail.git', :branch => 'rails4'
+
+# Heroku integration
+  gem 'rails_12factor', group: :production
