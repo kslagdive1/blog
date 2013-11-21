@@ -40,3 +40,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  gem 'therubyracer', platforms: :ruby
