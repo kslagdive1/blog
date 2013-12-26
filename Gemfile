@@ -49,4 +49,5 @@ gem 'jquery-rails'
 # gem 'paper_trail', :git => 'https://github.com/airblade/paper_trail.git', :branch => 'rails4'
 
 # Heroku integration
+  gem "heroku"
   gem 'rails_12factor', group: :production
